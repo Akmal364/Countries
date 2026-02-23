@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Countries</title>
+    <link rel="icon" type="image/x-icon" href="./icons/web-icon.svg">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <div class="main">
+        <div class="mode">
+            <i id="light" class="fa-solid fa-sun"></i>
+            <i id="dark" class="fa-solid fa-moon"></i>
+        </div>
+
+        <div class="btns">
+            <button class="btnCountries">Sort A–Z</button>
+            <button class="btnPopulation">By Population</button>
+            <button class="btnArea">By Area</button>
+        </div>
+
+        <div class="sort">
+            <input class="input" placeholder="Type country name..." type="text">
+
+            <select class="select">
+             <option value="All">All</option>
+             <option value="Africa">Africa</option>
+             <option value="Americas">Americas</option>
+             <option value="Antarctic">Antarctic</option>
+             <option value="Asia">Asia</option>
+             <option value="Europe">Europe</option>
+             <option value="Oceania">Oceania</option>
+        </select>
+        </div>
+
+    </div>
+
+
+    <div class="holder">
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
